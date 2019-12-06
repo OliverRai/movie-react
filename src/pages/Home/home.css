@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+.lista-filme{
+    margin: 15px;
+    
+}
+.lista-filme article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B0000;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lista-filme strong{
+    font-size: 20px;  
+    padding-bottom: 15px;
+    color: #FFF;
+}
+.lista-filme article a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000;
+    width: 99%;
+    height: 30px;
+    margin-top: -30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+img{
+    max-height: 350px;
+    width: 900px;
+    border-radius: 10px;
+    background: -moz-linear-gradient(rigth, #000, #000000);
+}
+.filme{
+    margin-top: 20px;
+}
