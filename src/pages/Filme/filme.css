@@ -1,0 +1,20 @@
+
+
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    background-color: gray;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.filme-info img{
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+}
