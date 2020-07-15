@@ -1,4 +1,5 @@
 import React, {Component} from 'react'; 
+import {Link} from 'react-router-dom';
 import './filme.css';
 
 
@@ -31,6 +32,7 @@ class Filme extends Component{
               }
               
               {this.state.movie.sinopse}
+              <Link to={'/'}>Voltar</Link>
             </div>
         );
     }
